@@ -1,0 +1,17 @@
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: "remove_from_wishlist",
+  ecommerce: {
+    items: [
+    {
+      item_id: "SKU_12345",
+      item_name: "4 adet Olgun Hasat 5lt Kampanya",
+      currency: "TRY",
+      discount: 500,
+      price: 7500,
+      quantity: 1,
+      item_category: "Zeytinyağı"
+    }
+    ]
+  }
+});
