@@ -1,0 +1,28 @@
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: "purchase",
+  ecommerce: {
+      transaction_id: "T_12345",
+      value: 8000,
+      currency: "TRY",
+      items: [
+       {
+      item_id: "SKU_12345",
+      item_name: "4 adet Olgun Hasat 5lt Kampanya",
+      currency: "TRY",
+      discount: 500,
+      price: 7500,
+      quantity: 1,
+      item_category: "Zeytinyağı"
+      },
+      {
+      item_id: "SKU_54321",
+      item_name: "Sofralık Yeşil Çizik Zeytin - 650 gr Cam Kavanoz",
+      currency: "TRY",
+      discount: 0,
+      price: 250,
+      quantity: 2,
+      item_category: "Zeytin"
+      }]
+  }
+});
