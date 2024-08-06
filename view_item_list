@@ -2,8 +2,8 @@ window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
   event: "view_item_list",
   ecommerce: {
-      items: [
-       {
+    items: [
+      {
       item_id: "SKU_12345",
       item_name: "4 adet Olgun Hasat 5lt Kampanya",
       currency: "TRY",
